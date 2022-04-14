@@ -1,0 +1,42 @@
+#editor {
+    background: #181412;
+    
+}
+textarea {
+    border: 1px solid gold;
+    background: #181412;
+    color: gold;
+    font-size: large;
+    margin: 2% 2% 0px 2%;
+    width: 96%;
+    height: 50%;
+}
+body {
+    background: #272822;
+    color: #e6db74;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+}
+.button {
+    color: gold;
+    border:1px gold solid;
+    border-radius: 10%;
+    padding: 4px
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
