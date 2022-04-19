@@ -9,10 +9,23 @@
 </head>
 <body>
     <div>
-        <textarea></textarea>
+        <textarea id="text" rows="15"></textarea>
         <ul>
-            <li><a class="button" href="https://youtube.com">Submit</href></li>
+            <li><a onclick="Save()" class="button">Save</a></href></li>
+            <li><a onclick="Sync()" class="button">Sync</a></href></li>
         </ul>
     </div>
 </body>
 </html>
+
+<script>
+    function Save(){
+        // Sends data to php server
+        var text = document.getElementById("text").value;
+        alert(text)
+    }
+    function Sync(){
+        var text = "Incoming text" // Todo: Pull from php server
+        document.getElementById("text").value = text;
+    }
+</script>

@@ -9,7 +9,7 @@ textarea {
     font-size: large;
     margin: 2% 2% 0px 2%;
     width: 96%;
-    height: 50%;
+    
 }
 body {
     background: #272822;
@@ -30,13 +30,19 @@ li {
     color: gold;
     border:1px gold solid;
     border-radius: 10%;
-    padding: 4px
+    padding: 5px;
+    padding-inline: 20px;
+    background: #181412;
 }
 
 a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
 
-a:hover { text-decoration: none; }
-
 a:active { text-decoration: none; }
+
+a:hover { text-decoration: none; cursor:pointer}
+
+input:focus,textarea:focus{
+    outline: none;
+   }
